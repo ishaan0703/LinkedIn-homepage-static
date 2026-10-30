@@ -255,81 +255,86 @@
 
                 <br>
 
-                <div class="common-properties" id="show-post-container">
-                    <div id="show-comment-on-post">
-                        <b style="color: black;">Your connection&nbsp;</b>commented/reacted on this
-                    </div>
-                    
-                    <div id="show-account-name">
-                        <a href="#">
-                            <i class="fas fa-user-circle fa-4x" style="color: rgba(0,0,0,.6); float: left; margin-right: 10px;"></i>
-                            <div style="display: inline-block;">
-                                <b style="color: black;">User Name</b>&nbsp;<i class="fas fa-circle" style="font-size: 4px; color: black;"></i>&nbsp;1st
-                                <br>
-                                <p>User bio</p>
-                                <p>8h <i class="fas fa-circle" style="font-size: 4px; color: black;"></i> Edited/None <i class="fas fa-circle" style="font-size: 4px; color: black;"></i> <i class="fas fa-globe"></i></p>
-                            </div>
-                        </a>
-                    </div>
+             
 
-                    <div id="caption">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                    </div>
+<!-- ------------------ Feed Post 1 (Tech / Coding) ------------------ -->
+<div class="common-properties post-card">
+    <div class="post-header-comment">
+        <b style="color: black;">Sarah Jenkins&nbsp;</b>celebrates this
+    </div>
+    
+    <div class="post-account-info">
+        <a href="#">
+            <i class="fas fa-user-circle fa-4x" style="color: rgba(0,0,0,.6); float: left; margin-right: 10px;"></i>
+            <div style="display: inline-block;">
+                <b style="color: black;">Alex Rivera</b>&nbsp;<i class="fas fa-circle" style="font-size: 4px; color: black;"></i>&nbsp;1st
+                <br>
+                <p>Senior Full-Stack Engineer at CloudScale</p>
+                <p>3h <i class="fas fa-circle" style="font-size: 4px; color: black;"></i> Edited <i class="fas fa-circle" style="font-size: 4px; color: black;"></i> <i class="fas fa-globe"></i></p>
+            </div>
+        </a>
+    </div>
 
-                    <div id="post-picture"></div>
+    <div class="post-caption">
+        <p>After three months of refactoring legacy pipelines, our team finally cut bundle size by 42% and reduced initial paint times under 1 second. Key takeaway: audit your third-party CDN bundles before rewriting core logic. Details on the engineering blog next week!</p>
+    </div>
 
-                    <div id="likes">
-                        <ul>
-                            <li>
-                                <button type="button" class="btn">
-                                    <i class="fas fa-thumbs-up" style="color: blue;"></i>
-                                    <i class="fas fa-sign-language" style="color: green;"></i>
-                                    <i class="fas fa-heart" style="color: red;"></i>
-                                    <span>6,043</span>&nbsp;<i class="fas fa-circle" style="font-size: 4px; color: black;"></i>&nbsp;
-                                </button>
-                            </li>
-                            <li>
-                                <button type="button" class="btn">
-                                    <span>213 Comments</span>
-                                </button>
-                            </li>
-                        </ul>
-                    </div>
+    <!-- Working online demo image -->
+    <div class="post-image" style="background-image: url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80');"></div>
 
-                    <div id="like-option">
-                        <span>
-                            <button type="button" class="btn">
-                                <i class="far fa-thumbs-up"></i> Like
-                            </button>
-                        </span>
-                        <span>
-                            <button type="button" class="btn">
-                                <i class="far fa-comment-dots"></i> Comment
-                            </button>
-                        </span>
-                        <span>
-                            <button type="button" class="btn">
-                                <i class="far fa-share-square"></i> Share
-                            </button>
-                        </span>
-                    </div>
-                </div>
-            </div>  
+    <div class="post-likes">
+        <ul>
+            <li>
+                <button type="button" class="btn">
+                    <i class="fas fa-thumbs-up" style="color: #0073b1;"></i>
+                    <i class="fas fa-heart" style="color: #e0245e;"></i>
+                    <i class="fas fa-lightbulb" style="color: #f5bb00;"></i>
+                    <span>1,420</span>&nbsp;<i class="fas fa-circle" style="font-size: 4px; color: black;"></i>&nbsp;
+                </button>
+            </li>
+            <li>
+                <button type="button" class="btn">
+                    <span>89 Comments</span>
+                </button>
+            </li>
+        </ul>
+    </div>
 
-            <!-- Right Elements -->
-            <div class="col-lg-3 d-none d-lg-block">
-                <aside class="common-properties" id="right-card">
-                    <div id="news-views">
-                        Today's news and views
-                        <span style="float: right;">
-                            <button type="button" class="btn" style="background: transparent; color: rgba(0,0,0,.6); padding: 0 !important; border: 0 !important;">
-                                <i class="fas fa-info-circle"></i>
-                            </button>
-                        </span>
-                    </div>
+    <div class="post-actions">
+        <span><button type="button" class="btn"><i class="far fa-thumbs-up"></i> Like</button></span>
+        <span><button type="button" class="btn"><i class="far fa-comment-dots"></i> Comment</button></span>
+        <span><button type="button" class="btn"><i class="far fa-share-square"></i> Share</button></span>
+        <span><button type="button" class="btn"><i class="far fa-paper-plane"></i> Send</button></span>
+    </div>
+</div>
 
-                    <ul id="news-section">
-                        <li>
-                            <a href="#">
-                                <div><i class="fas fa-circle" style="margin-left: 12px; font-size: 9px; color: #0ea7e8"></i>&emsp;<span>News Headline 1</span></div>
-            
+<!-- ------------------ Feed Post 2 (Text-Only / Milestone) ------------------ -->
+<div class="common-properties post-card">
+    <div class="post-account-info">
+        <a href="#">
+            <i class="fas fa-user-circle fa-4x" style="color: rgba(0,0,0,.6); float: left; margin-right: 10px;"></i>
+            <div style="display: inline-block;">
+                <b style="color: black;">Elena Rostova</b>&nbsp;<i class="fas fa-circle" style="font-size: 4px; color: black;"></i>&nbsp;2nd
+                <br>
+                <p>Product Designer & UX Researcher</p>
+                <p>7h <i class="fas fa-circle" style="font-size: 4px; color: black;"></i> <i class="fas fa-globe"></i></p>
+            </div>
+        </a>
+    </div>
+
+    <div class="post-caption">
+        <p>Excited to share that I have joined the Design Systems team at FinCorp! Looking forward to diving deep into accessibility standards, token architecture, and micro-interactions with such a talented group.</p>
+        <p style="color: #0073b1;">#newrole #designsystems #uxdesign #careerupdate</p>
+    </div>
+
+    <div class="post-likes">
+        <ul>
+            <li>
+                <button type="button" class="btn">
+                    <i class="fas fa-thumbs-up" style="color: #0073b1;"></i>
+                    <i class="fas fa-sign-language" style="color: #057642;"></i>
+                    <span>512</span>&nbsp;<i class="fas fa-circle" style="font-size: 4px; color: black;"></i>&nbsp;
+                </button>
+            </li>
+            <li>
+                <button type="button" clas
